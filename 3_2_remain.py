@@ -1,5 +1,5 @@
 '''## +SW 변수 이용 ##'''
-''' 홀수 거르기 '''
+''' 짝수 거르기 '''
 N = 0 # 자연수
 H = 0 # 합
 SW = 0 # 제어 조건
@@ -11,7 +11,7 @@ while True:
         SW = 1
     else:
         SW = 0
-    # print("SW, N, H : ",SW, N, H)   
+    print("SW, N, H : ",SW, N, H)   
     if(N<99):continue
     break
 print("H는 : ", H)
